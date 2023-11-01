@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+* {
+  background-color: rgb(232, 227, 221);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: black;
+}
+
+.user-container {
+  display: flex;
+  background-color: rgb(232, 227, 221);
+  color: rgb(78, 78, 78);
+  padding: 0.2rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+h2 {
+  color: rgb(232, 227, 221);
+  background-color: rgb(78, 78, 78);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  margin: 0.5rem;
+  background-color: rgb(211, 192, 192);
+}
+select {
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  margin: 0.5rem;
+  background-color: rgb(211, 192, 192);
+  font-weight: bold;
+}
+
+p {
+  font-weight: 420;
+  color: rgb(116, 49, 49);
+  padding: 1rem;
+}
+b {
+  font-weight: 150;
+}
+button {
+  color: white;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  background-color: rgb(116, 49, 49);
+}
